@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "532934226055",
+    "project_id": "earning-coint",
+    "storage_bucket": "earning-coint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532934226055:android:2fad2b6e3e3b973da6c822",
+        "android_client_info": {
+          "package_name": "com.example.earningcoin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532934226055-ne812m0v7ekk5m4dvmbe4m9gp2svdnlu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.earningcoin",
+            "certificate_hash": "c56346731d9192810148887214c4fddcb7db26a2"
+          }
+        },
+        {
+          "client_id": "532934226055-uhp96hdqm47usvidf3ahcfa2b96lgs9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDolmSnYgD14F056cqQvHVNgM3QkvaBah4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532934226055-uhp96hdqm47usvidf3ahcfa2b96lgs9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

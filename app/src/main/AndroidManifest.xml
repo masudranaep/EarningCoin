@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.earningcoin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <application
+        android:name=".Withdraw.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/clear_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EarningCoin">
+        <activity
+            android:name=".Invite.WatchVideo"
+            android:exported="true" />
+        <activity
+            android:name=".History.HistryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Withdraw.FragmentReplaceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Withdraw.RedeemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Invite.InviteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Profile.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginAndReg.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginAndReg.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ayetstudios.publishersdk.OfferwallActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            tools:ignore="IntentFilterExportedReceiver">
+            <intent-filter android:label="offer">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.example.earningcoin"
+                    android:scheme="offer" /> <!-- Replace with your lower case package name -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ayetstudios.publishersdk.VideoActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" /> <!-- Aye t api -->
+        <meta-data
+            android:name="AYET_APP_KEY"
+            android:value="xxxxxxxxxxxxxxxx" />
+    </application>
+
+</manifest>

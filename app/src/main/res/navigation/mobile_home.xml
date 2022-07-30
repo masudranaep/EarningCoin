@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button_navigation"
+    app:startDestination="@id/navigation_home">
+
+
+    <fragment android:id="@+id/navigation_home"
+        android:name="com.example.earningcoin.Fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment android:id="@+id/navigation_WithDraw"
+        android:name="com.example.earningcoin.Fragment.WithDrawFragment"
+        android:label="WithDraw"
+        tools:layout="@layout/fragment_with_draw"/>
+
+
+    <fragment android:id="@+id/navigation_laderbot"
+        android:name="com.example.earningcoin.Fragment.LedarBootFragment"
+        android:label="LaderBoot"
+        tools:layout="@layout/fragment_ledar_boot"/>
+
+    <fragment android:id="@+id/navigation_about"
+        android:name="com.example.earningcoin.About.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about"/>
+
+</navigation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Withdraw.AmazonFragment">
+
+    <TextView
+        android:id="@+id/coins_Tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="1oooo"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:drawableEnd="@drawable/ic_bitcoin_24"
+        android:drawablePadding="8dp"
+        android:drawableRight="@drawable/ic_bitcoin_24"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+
+<RadioGroup
+    android:id="@+id/radioGroup"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="amazon 25$ Gift Card"
+        android:id="@+id/amazon25"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="amazon 25$ Gift Card"
+        android:textColor="@color/black"
+        android:id="@+id/amazon50"/>
+</RadioGroup>
+
+    <Button
+        android:id="@+id/submiBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#FFEB3B"
+        android:minWidth="160dp"
+        android:text="Withdraw"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
